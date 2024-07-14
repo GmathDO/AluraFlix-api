@@ -1,4 +1,11 @@
-
+CREATE TABLE peliculas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    titulo TEXT NOT NULL,
+    categoria TEXT NOT NULL,
+    imagen TEXT,
+    video TEXT,
+    descripcion TEXT
+);
 
 INSERT INTO peliculas (titulo, categoria, imagen, video, descripcion) VALUES
 ('Deadpool and Wolverine', 'accion', 'https://www.lahiguera.net/cinemania/pelicula/11086/deadpool_y_lobezno-cartel-11876.jpg', 'https://www.youtube.com/embed/BRGBYU7iW1g?si=9RlCPcFMNJ-yldIE', 'Lobezno se recupera de sus heridas cuando se cruza con el bocazas, Deadpool, que ha viajado en el tiempo para curarlo con la esperanza de hacerse amigos y formar un equipo para acabar con un enemigo común.'),
