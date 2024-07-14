@@ -5,16 +5,12 @@
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "test": "vitest"
+    "start": "wrangler dev"
   },
   "devDependencies": {
     "wrangler": "^3.64.0"
   },
   "dependencies": {
-    "hono": "^4.4.13",
-    "itty-router": "^5.0.17",
-    "toucan": "^0.2.0",
-    "worktop": "^0.7.3"
+    "hono": "^4.4.13"
   }
 }

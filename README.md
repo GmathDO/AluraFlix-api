@@ -115,12 +115,12 @@ Elimina una película específica por su ID.
 
 2. **Inicia sesión en tu cuenta de Cloudflare**:
     ```bash
-    wrangler login
+    npx wrangler login
     ```
 
 3. **Crea la base de datos**:
     ```bash
-    wrangler d1 create my_movie_db
+    npx wrangler d1 create my_movie_db
     ```
 
 ### Configurar la Base de Datos
