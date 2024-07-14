@@ -1,0 +1,20 @@
+{
+  "name": "aluraflix-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "wrangler": "^3.64.0"
+  },
+  "dependencies": {
+    "hono": "^4.4.13",
+    "itty-router": "^5.0.17",
+    "toucan": "^0.2.0",
+    "worktop": "^0.7.3"
+  }
+}
