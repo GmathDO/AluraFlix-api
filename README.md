@@ -1,6 +1,3 @@
-Aquí tienes un `README.md` que describe los endpoints de la API, cómo crear y configurar la base de datos usando `npx wrangler`, y cómo utilizar los comandos de `wrangler d1`.
-
-```markdown
 # Aluraflix API
 
 Esta es una API para gestionar películas utilizando Cloudflare Workers y Cloudflare D1 como base de datos. 
