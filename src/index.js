@@ -1,7 +1,8 @@
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 
 const app = new Hono();
-
+app.use("/api/*", cors());
 app.get("/api/peliculas", async (c) => {
   const { results } = await c.env.DB.prepare("SELECT * FROM peliculas").all();
   return c.json(results);
